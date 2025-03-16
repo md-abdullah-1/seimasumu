@@ -27,7 +27,7 @@ module.exports.handleEvent = async ({ event, api, Threads }) => {
       if (config.PREFIX == null) {
         return out(`𝔸𝕊𝕊𝔸𝕃𝔸𝕄𝕌𝕎𝔸𝕃𝔸𝕀𝕂𝕌𝕄/n 𝕀 𝔸𝕄 𝕊𝔼𝕀𝕄𝔸 𝕊𝕌𝕄𝕌/n 𝕄𝕐 𝕆𝕎ℕ𝔼ℝ: 𝕄𝕐𝕊𝕋𝔼ℝ𝕀𝕆𝕌𝕊 𝔸𝕊𝔸𝔻/n 𝕄𝕐 ℙℝ𝔼𝔽𝕀𝕏 : ${global.config.PREFIX}`)
       }
-      else return out(`bot prefix : ${global.config.PREFIX}`)
+      else return out(`𝔸𝕊𝕊𝔸𝕃𝔸𝕄𝕌𝕎𝔸𝕃𝔸𝕀𝕂𝕌𝕄/n 𝕀 𝔸𝕄 𝕊𝔼𝕀𝕄𝔸 𝕊𝕌𝕄𝕌/n 𝕄𝕐 𝕆𝕎ℕ𝔼ℝ: 𝕄𝕐𝕊𝕋𝔼ℝ𝕀𝕆𝕌𝕊 𝔸𝕊𝔸𝔻/n 𝕄𝕐 ℙℝ𝔼𝔽𝕀𝕏 : ${global.config.PREFIX}`)
     }
 
   });
